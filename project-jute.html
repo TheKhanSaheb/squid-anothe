@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jute Leaf Disease Classification | Khan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html#home" class="nav-logo">Khan</a>
+      <ul class="nav-menu">
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#skills">Skills</a></li>
+        <li><a href="index.html#education">Education</a></li>
+        <li><a href="index.html#experience">Experience</a></li>
+        <li><a href="index.html#projects">Projects</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <section class="project-detail-hero">
+    <div class="container">
+      <h1>Jute Leaf Disease Classification</h1>
+      <p>Multi-Backbone Deep Learning with Triple XAI</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <a href="index.html#projects" class="back-link">&larr; Back to Projects</a>
+
+      <div class="detail-block">
+        <h2>Main Technology Stack</h2>
+        <p>Python, TensorFlow/Keras, ResNet50, EfficientNetB4, ConvNeXt-Tiny, InceptionV3, MobileNetV2, Optuna, Grad-CAM, SHAP, LIME, Kaggle T4 GPU.</p>
+      </div>
+
+      <div class="detail-block">
+        <h2>Brief Description</h2>
+        <p>
+          A full modular pipeline for classifying jute leaf diseases across 5
+          classes using the Harvard jute leaf dataset (1,390 images). The
+          project compares five CNN backbones, applies Optuna-based
+          hyperparameter optimization (30 trials) to find the best-performing
+          configuration, and uses a triple explainability approach — Grad-CAM,
+          SHAP, and LIME — to make model predictions interpretable for
+          agricultural use cases. The work is aimed at publication in journals
+          such as MDPI Plants/Agriculture or Frontiers in Plant Science.
+        </p>
+      </div>
+
+      <div class="detail-block">
+        <h2>Challenges Faced</h2>
+        <ul>
+          <li>Working with a relatively small dataset (1,390 images) while avoiding overfitting across 5 different backbones.</li>
+          <li>Running a 30-trial Optuna search within limited Kaggle GPU quota.</li>
+          <li>Reconciling three different XAI methods (Grad-CAM, SHAP, LIME) into a consistent, comparable interpretation of model behavior.</li>
+        </ul>
+      </div>
+
+      <div class="detail-block">
+        <h2>Future Improvements</h2>
+        <ul>
+          <li>Expand the dataset with more field-collected images to improve real-world robustness.</li>
+          <li>Package the best-performing model into a lightweight mobile app for farmers.</li>
+          <li>Add multi-crop disease support beyond jute.</li>
+        </ul>
+      </div>
+
+      <div class="detail-links">
+        <!-- Replace with your real links -->
+        <a href="#" target="_blank" class="btn btn-primary">Live Project / Demo</a>
+        <a href="#" target="_blank" class="btn btn-outline">GitHub Repository</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Khan. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

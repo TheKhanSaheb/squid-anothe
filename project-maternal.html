@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maternal Health Risk Stratification | Khan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html#home" class="nav-logo">Khan</a>
+      <ul class="nav-menu">
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#skills">Skills</a></li>
+        <li><a href="index.html#education">Education</a></li>
+        <li><a href="index.html#experience">Experience</a></li>
+        <li><a href="index.html#projects">Projects</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <section class="project-detail-hero">
+    <div class="container">
+      <h1>Maternal Health Risk Stratification</h1>
+      <p>ML + XAI Using Accessible Vitals</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <a href="index.html#projects" class="back-link">&larr; Back to Projects</a>
+
+      <div class="detail-block">
+        <h2>Main Technology Stack</h2>
+        <p>Python, Scikit-learn, Pandas, SHAP, UCI Maternal Health Risk dataset.</p>
+      </div>
+
+      <div class="detail-block">
+        <h2>Brief Description</h2>
+        <p>
+          A machine learning system that stratifies maternal health risk
+          (low / mid / high) using easily accessible vitals such as blood
+          pressure, blood sugar, and heart rate, combined with SHAP-based
+          explainability to make the model's reasoning transparent. Given the
+          limitations of the underlying dataset, the project is intentionally
+          framed as a "risk stratification using accessible vitals" tool
+          rather than a clinical diagnostic system, making it suitable as a
+          supportive screening aid in low-resource settings.
+        </p>
+      </div>
+
+      <div class="detail-block">
+        <h2>Challenges Faced</h2>
+        <ul>
+          <li>Working with a dataset limited in size and clinical depth, which required careful framing to avoid overstating diagnostic claims.</li>
+          <li>Balancing model performance with interpretability so the risk categories remain clinically meaningful.</li>
+          <li>Structuring a literature review and clinical grounding phase before any modeling began.</li>
+        </ul>
+      </div>
+
+      <div class="detail-block">
+        <h2>Future Improvements</h2>
+        <ul>
+          <li>Incorporate additional real-world clinical datasets to strengthen generalizability.</li>
+          <li>Add a simple web-based interface for healthcare workers to input vitals and receive a risk estimate.</li>
+          <li>Explore counterfactual explanations (e.g. DiCE) to suggest actionable vitals changes.</li>
+        </ul>
+      </div>
+
+      <div class="detail-links">
+        <!-- Replace with your real links -->
+        <a href="#" target="_blank" class="btn btn-primary">Live Project / Demo</a>
+        <a href="#" target="_blank" class="btn btn-outline">GitHub Repository</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Khan. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220">
+  <rect width="400" height="220" fill="#121826"/>
+  <ellipse cx="200" cy="120" rx="90" ry="55" fill="none" stroke="#2dd4bf" stroke-width="4"/>
+  <line x1="110" y1="120" x2="290" y2="120" stroke="#2dd4bf" stroke-width="3"/>
+  <text x="50%" y="30" text-anchor="middle" fill="#9aa4b8" font-size="16" font-family="Arial">Jute Leaf Disease Classification</text>
+</svg>

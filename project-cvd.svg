@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220">
+  <rect width="400" height="220" fill="#121826"/>
+  <path d="M0 150 L60 150 L80 100 L110 180 L140 60 L170 150 L400 150" stroke="#2dd4bf" stroke-width="4" fill="none"/>
+  <text x="50%" y="30" text-anchor="middle" fill="#9aa4b8" font-size="16" font-family="Arial">CVD Risk Prediction</text>
+</svg>
